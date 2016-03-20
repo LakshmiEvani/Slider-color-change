@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879AF21C1C8F0FF000331C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AF21B1C8F0FF000331C34 /* AppDelegate.swift */; };
+		879AF21E1C8F0FF000331C34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AF21D1C8F0FF000331C34 /* ViewController.swift */; };
+		879AF2211C8F0FF000331C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879AF21F1C8F0FF000331C34 /* Main.storyboard */; };
+		879AF2231C8F0FF000331C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879AF2221C8F0FF000331C34 /* Assets.xcassets */; };
+		879AF2261C8F0FF000331C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879AF2241C8F0FF000331C34 /* LaunchScreen.storyboard */; };
+		879AF2311C8F0FF000331C34 /* Slider_color_changeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AF2301C8F0FF000331C34 /* Slider_color_changeTests.swift */; };
+		879AF23C1C8F0FF000331C34 /* Slider_color_changeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AF23B1C8F0FF000331C34 /* Slider_color_changeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		879AF22D1C8F0FF000331C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879AF2101C8F0FEF00331C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879AF2171C8F0FEF00331C34;
+			remoteInfo = "Slider color change";
+		};
+		879AF2381C8F0FF000331C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879AF2101C8F0FEF00331C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879AF2171C8F0FEF00331C34;
+			remoteInfo = "Slider color change";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879AF2181C8F0FF000331C34 /* Slider color change.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider color change.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		879AF21B1C8F0FF000331C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		879AF21D1C8F0FF000331C34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		879AF2201C8F0FF000331C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879AF2221C8F0FF000331C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879AF2251C8F0FF000331C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		879AF2271C8F0FF000331C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879AF22C1C8F0FF000331C34 /* Slider color changeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slider color changeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		879AF2301C8F0FF000331C34 /* Slider_color_changeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_color_changeTests.swift; sourceTree = "<group>"; };
+		879AF2321C8F0FF000331C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879AF2371C8F0FF000331C34 /* Slider color changeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slider color changeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		879AF23B1C8F0FF000331C34 /* Slider_color_changeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_color_changeUITests.swift; sourceTree = "<group>"; };
+		879AF23D1C8F0FF000331C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879AF2151C8F0FEF00331C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879AF2291C8F0FF000331C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879AF2341C8F0FF000331C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879AF20F1C8F0FEF00331C34 = {
+			isa = PBXGroup;
+			children = (
+				879AF21A1C8F0FF000331C34 /* Slider color change */,
+				879AF22F1C8F0FF000331C34 /* Slider color changeTests */,
+				879AF23A1C8F0FF000331C34 /* Slider color changeUITests */,
+				879AF2191C8F0FF000331C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879AF2191C8F0FF000331C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879AF2181C8F0FF000331C34 /* Slider color change.app */,
+				879AF22C1C8F0FF000331C34 /* Slider color changeTests.xctest */,
+				879AF2371C8F0FF000331C34 /* Slider color changeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879AF21A1C8F0FF000331C34 /* Slider color change */ = {
+			isa = PBXGroup;
+			children = (
+				879AF21B1C8F0FF000331C34 /* AppDelegate.swift */,
+				879AF21D1C8F0FF000331C34 /* ViewController.swift */,
+				879AF21F1C8F0FF000331C34 /* Main.storyboard */,
+				879AF2221C8F0FF000331C34 /* Assets.xcassets */,
+				879AF2241C8F0FF000331C34 /* LaunchScreen.storyboard */,
+				879AF2271C8F0FF000331C34 /* Info.plist */,
+			);
+			path = "Slider color change";
+			sourceTree = "<group>";
+		};
+		879AF22F1C8F0FF000331C34 /* Slider color changeTests */ = {
+			isa = PBXGroup;
+			children = (
+				879AF2301C8F0FF000331C34 /* Slider_color_changeTests.swift */,
+				879AF2321C8F0FF000331C34 /* Info.plist */,
+			);
+			path = "Slider color changeTests";
+			sourceTree = "<group>";
+		};
+		879AF23A1C8F0FF000331C34 /* Slider color changeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				879AF23B1C8F0FF000331C34 /* Slider_color_changeUITests.swift */,
+				879AF23D1C8F0FF000331C34 /* Info.plist */,
+			);
+			path = "Slider color changeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879AF2171C8F0FEF00331C34 /* Slider color change */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879AF2401C8F0FF000331C34 /* Build configuration list for PBXNativeTarget "Slider color change" */;
+			buildPhases = (
+				879AF2141C8F0FEF00331C34 /* Sources */,
+				879AF2151C8F0FEF00331C34 /* Frameworks */,
+				879AF2161C8F0FEF00331C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slider color change";
+			productName = "Slider color change";
+			productReference = 879AF2181C8F0FF000331C34 /* Slider color change.app */;
+			productType = "com.apple.product-type.application";
+		};
+		879AF22B1C8F0FF000331C34 /* Slider color changeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879AF2431C8F0FF000331C34 /* Build configuration list for PBXNativeTarget "Slider color changeTests" */;
+			buildPhases = (
+				879AF2281C8F0FF000331C34 /* Sources */,
+				879AF2291C8F0FF000331C34 /* Frameworks */,
+				879AF22A1C8F0FF000331C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879AF22E1C8F0FF000331C34 /* PBXTargetDependency */,
+			);
+			name = "Slider color changeTests";
+			productName = "Slider color changeTests";
+			productReference = 879AF22C1C8F0FF000331C34 /* Slider color changeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		879AF2361C8F0FF000331C34 /* Slider color changeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879AF2461C8F0FF000331C34 /* Build configuration list for PBXNativeTarget "Slider color changeUITests" */;
+			buildPhases = (
+				879AF2331C8F0FF000331C34 /* Sources */,
+				879AF2341C8F0FF000331C34 /* Frameworks */,
+				879AF2351C8F0FF000331C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879AF2391C8F0FF000331C34 /* PBXTargetDependency */,
+			);
+			name = "Slider color changeUITests";
+			productName = "Slider color changeUITests";
+			productReference = 879AF2371C8F0FF000331C34 /* Slider color changeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879AF2101C8F0FEF00331C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Souji;
+				TargetAttributes = {
+					879AF2171C8F0FEF00331C34 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					879AF22B1C8F0FF000331C34 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 879AF2171C8F0FEF00331C34;
+					};
+					879AF2361C8F0FF000331C34 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 879AF2171C8F0FEF00331C34;
+					};
+				};
+			};
+			buildConfigurationList = 879AF2131C8F0FEF00331C34 /* Build configuration list for PBXProject "Slider color change" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879AF20F1C8F0FEF00331C34;
+			productRefGroup = 879AF2191C8F0FF000331C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879AF2171C8F0FEF00331C34 /* Slider color change */,
+				879AF22B1C8F0FF000331C34 /* Slider color changeTests */,
+				879AF2361C8F0FF000331C34 /* Slider color changeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879AF2161C8F0FEF00331C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879AF2261C8F0FF000331C34 /* LaunchScreen.storyboard in Resources */,
+				879AF2231C8F0FF000331C34 /* Assets.xcassets in Resources */,
+				879AF2211C8F0FF000331C34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879AF22A1C8F0FF000331C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879AF2351C8F0FF000331C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879AF2141C8F0FEF00331C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879AF21E1C8F0FF000331C34 /* ViewController.swift in Sources */,
+				879AF21C1C8F0FF000331C34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879AF2281C8F0FF000331C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879AF2311C8F0FF000331C34 /* Slider_color_changeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879AF2331C8F0FF000331C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879AF23C1C8F0FF000331C34 /* Slider_color_changeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879AF22E1C8F0FF000331C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879AF2171C8F0FEF00331C34 /* Slider color change */;
+			targetProxy = 879AF22D1C8F0FF000331C34 /* PBXContainerItemProxy */;
+		};
+		879AF2391C8F0FF000331C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879AF2171C8F0FEF00331C34 /* Slider color change */;
+			targetProxy = 879AF2381C8F0FF000331C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879AF21F1C8F0FF000331C34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879AF2201C8F0FF000331C34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879AF2241C8F0FF000331C34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879AF2251C8F0FF000331C34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879AF23E1C8F0FF000331C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		879AF23F1C8F0FF000331C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879AF2411C8F0FF000331C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slider color change/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Slider-color-change";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		879AF2421C8F0FF000331C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slider color change/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Slider-color-change";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		879AF2441C8F0FF000331C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Slider color changeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Slider-color-changeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slider color change.app/Slider color change";
+			};
+			name = Debug;
+		};
+		879AF2451C8F0FF000331C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Slider color changeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Slider-color-changeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slider color change.app/Slider color change";
+			};
+			name = Release;
+		};
+		879AF2471C8F0FF000331C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Slider color changeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Slider-color-changeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Slider color change";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		879AF2481C8F0FF000331C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Slider color changeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Slider-color-changeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Slider color change";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879AF2131C8F0FEF00331C34 /* Build configuration list for PBXProject "Slider color change" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879AF23E1C8F0FF000331C34 /* Debug */,
+				879AF23F1C8F0FF000331C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879AF2401C8F0FF000331C34 /* Build configuration list for PBXNativeTarget "Slider color change" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879AF2411C8F0FF000331C34 /* Debug */,
+				879AF2421C8F0FF000331C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		879AF2431C8F0FF000331C34 /* Build configuration list for PBXNativeTarget "Slider color changeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879AF2441C8F0FF000331C34 /* Debug */,
+				879AF2451C8F0FF000331C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		879AF2461C8F0FF000331C34 /* Build configuration list for PBXNativeTarget "Slider color changeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879AF2471C8F0FF000331C34 /* Debug */,
+				879AF2481C8F0FF000331C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879AF2101C8F0FEF00331C34 /* Project object */;
+}
